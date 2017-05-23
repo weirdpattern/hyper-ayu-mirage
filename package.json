@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+
+  "name": "hyper-ayu-mirage",
+  "description": "Ayu MIrage Hyper theme",
+  "author": "Patricio Trevino <patricio@weirdpattern.com>",
+
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/weirdpattern/hyper-ayu-mirage"
+  },
+
+  "main": "index.js",
+
+  "keywords": [
+    "weirdpattern",
+    "hyper",
+    "hyper-theme",
+    "ayu",
+    "ayu-theme",
+    "mirage",
+    "theme"
+  ]
+}
