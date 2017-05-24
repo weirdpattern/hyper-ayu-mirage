@@ -80,6 +80,15 @@ exports.decorateConfig = (config) => {
     borderColor: BORDER_COLOR,
     cursorColor: CURSOR_COLOR,
     colors,
+    termCSS: `
+      .cursor-node[focus=true]:not([moving]) {
+        animation: blink 1s ease infinite;
+      }
+      @keyframes blink {
+        0%, 40% { opacity: 0 }
+        50%, 90% { opacity: 1 }
+      }
+    `,
     css: `
       ${config.css || ''}
       .cursor-node {
