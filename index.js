@@ -27,14 +27,22 @@
 const BACKGROUND = '#212733';
 const FOREGROUND = '#D9D7CE';
 
-const RED = '#ff3333';
+const RED = '#FF3333';
+const LIGHT_RED = '#FF8080';
 const GREEN = '#BAE67E';
+const LIGHT_GREEN = '#DCF2BE';
 const YELLOW = '#FFD580';
+const LIGHT_YELLOW = '#FFEECD';
+const CYAN = '#95E6CB';
+const LIGHT_CYAN = '#D3F5E9';
 const BLUE = '#5CCFE6';
+const LIGHT_BLUE = '#9EE3F0';
 const MAGENTA = '#D4BFFF';
+const LIGHT_MAGENTA = '#E5D9FF';
 const LIGHT_GRAY = '#3D4752';
 const DARK_GRAY = '#3E4B59';
 const WHITE = '#FFFFFF';
+const GRAYSCALE = '#B8B4A3';
 
 const CURSOR_COLOR = YELLOW;
 const BORDER_COLOR = BACKGROUND;
@@ -50,17 +58,17 @@ const colors = {
   yellow: YELLOW,
   blue: BLUE,
   magenta: MAGENTA,
-  cyan: BLUE,
+  cyan: CYAN,
   white: LIGHT_GRAY,
   lightBlack: DARK_GRAY,
-  lightRed: RED,
-  lightGreen: GREEN,
-  lightYellow: YELLOW,
-  lightBlue: BLUE,
-  lightMagenta: MAGENTA,
-  lightCyan: BLUE,
+  lightRed: LIGHT_RED,
+  lightGreen: LIGHT_GREEN,
+  lightYellow: LIGHT_YELLOW,
+  lightBlue: LIGHT_BLUE,
+  lightMagenta: LIGHT_MAGENTA,
+  lightCyan: LIGHT_CYAN,
   colorCubes: WHITE,
-  grayscale: FOREGROUND
+  grayscale: GRAYSCALE
 };
 
 exports.decorateConfig = (config) => {
