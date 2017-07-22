@@ -109,6 +109,7 @@ exports.decorateConfig = (config) => {
     cursorColor: CURSOR_COLOR,
     colors,
     termCSS: `
+      ${config.termCSS || ''}
       .cursor-node[focus=true]:not([moving]) {
         animation: blink 1s ease infinite;
       }
