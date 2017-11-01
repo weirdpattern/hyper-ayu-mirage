@@ -167,7 +167,7 @@ exports.decorateConfig = (config) => {
         color: ${TAB_TEXT_COLOR};
         font-weight: 600;
       }
-      ${windowControlsCSS}
+      ${windowControlsCSS || ''}
     `
   });
 };
