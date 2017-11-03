@@ -67,4 +67,4 @@ You can decide whether to display the tab border or not using the following conf
 - [Ayu (light) for Hyper](https://github.com/weirdpattern/hyper-ayu-light)
 
 ## License
-MIT © WeirdPattern
+MIT © Patricio Trevino
