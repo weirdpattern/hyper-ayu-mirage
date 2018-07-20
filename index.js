@@ -28,19 +28,12 @@ const BACKGROUND = '#212733';
 const FOREGROUND = '#D9D7CE';
 
 const RED = '#FF3333';
-const LIGHT_RED = '#FF8080';
 const GREEN = '#BAE67E';
-const LIGHT_GREEN = '#DCF2BE';
 const YELLOW = '#FFD580';
-const LIGHT_YELLOW = '#FFEECD';
-const CYAN = '#95E6CB';
-const LIGHT_CYAN = '#D3F5E9';
-const BLUE = '#5CCFE6';
-const LIGHT_BLUE = '#9EE3F0';
+const CYAN = '#5CCFE6';
+const BLUE = '#73D0FF';
 const MAGENTA = '#D4BFFF';
-const LIGHT_MAGENTA = '#E5D9FF';
-const LIGHT_GRAY = '#3D4752';
-const DARK_GRAY = '#3E4B59';
+const GRAY = '#737D87';
 const WHITE = '#FFFFFF';
 const GRAYSCALE = '#B8B4A3';
 
@@ -59,14 +52,14 @@ const colors = {
   blue: BLUE,
   magenta: MAGENTA,
   cyan: CYAN,
-  white: LIGHT_GRAY,
-  lightBlack: DARK_GRAY,
-  lightRed: LIGHT_RED,
-  lightGreen: LIGHT_GREEN,
-  lightYellow: LIGHT_YELLOW,
-  lightBlue: LIGHT_BLUE,
-  lightMagenta: LIGHT_MAGENTA,
-  lightCyan: LIGHT_CYAN,
+  white: GRAY,
+  lightBlack: GRAY,
+  lightRed: RED,
+  lightGreen: GREEN,
+  lightYellow: YELLOW,
+  lightBlue: BLUE,
+  lightMagenta: MAGENTA,
+  lightCyan: CYAN,
   colorCubes: WHITE,
   grayscale: GRAYSCALE
 };
@@ -108,16 +101,6 @@ exports.decorateConfig = (config) => {
     borderColor: BORDER_COLOR,
     cursorColor: CURSOR_COLOR,
     colors,
-    termCSS: `
-      ${config.termCSS || ''}
-      .cursor-node[focus=true]:not([moving]) {
-        animation: blink 1s ease infinite;
-      }
-      @keyframes blink {
-        0%, 40% { opacity: 0 }
-        50%, 90% { opacity: 1 }
-      }
-    `,
     css: `
       ${config.css || ''}
       .hyper_main {
