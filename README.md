@@ -5,7 +5,7 @@ macOS
 ![Ayu Mirage Hyper Theme - macOS]()
 
 Windows
-![Ayu Mirage Hyper Theme - Windows]()
+![Ayu Mirage Hyper Theme - Windows](https://user-images.githubusercontent.com/19519411/43026162-1b04080a-8c3a-11e8-8c32-12a70d90acd6.PNG)
 
 ## Installation
 
