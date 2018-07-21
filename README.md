@@ -2,7 +2,7 @@
 Ayu (mirage) for Hyper
 
 macOS
-![Ayu Mirage Hyper Theme - macOS]()
+![Ayu Mirage Hyper Theme - macOS](https://user-images.githubusercontent.com/19519411/43032299-17c4f05c-8c79-11e8-987c-49100981439c.png)
 
 Windows
 ![Ayu Mirage Hyper Theme - Windows](https://user-images.githubusercontent.com/19519411/43026162-1b04080a-8c3a-11e8-8c32-12a70d90acd6.PNG)
